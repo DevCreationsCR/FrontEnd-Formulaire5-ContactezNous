@@ -8,3 +8,103 @@ html{
     /* 1rem = 10px */
     font-size: 62.5%;
 }
+
+
+body{
+    height: 100vh;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxForm{
+    margin-top: 3rem;
+    padding: 5rem;
+    width: 70rem;
+    height: 85rem;
+    background: #004058;
+    border-radius: 0.5rem;
+}
+
+h1{
+    margin: 0 0 5rem 0;
+    font-size: 5rem;
+    text-align: center;
+    color:  #F1F1F1;
+}
+
+img{
+    width: 5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.emailInp, select, textarea{
+    display: block;
+    margin: 2rem auto;
+    outline: 0;
+    background: #F1F1F1;
+    width: 95%;
+    border: 0;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    border-radius: 0.3rem;
+}
+
+.labelEmail, .labelSelect, .labelTxt {
+    color: #F1F1F1;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: 0.7rem;
+    font-size: 2rem;
+}
+
+.flex2Inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flexInp{
+    margin: 2rem auto;
+    outline: 0;
+    background: #F1F1F1;
+    width: 90%;
+    border: 0;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.3rem;
+}
+
+.flexLeftInp, .flexRightInp {
+    flex-basis: 45%;
+}
+
+.labelFlex {
+    color: #f1f1f1;
+    position: relative;
+    top: 0.8rem;
+    font-size: 2rem;
+}
+
+button {
+    width: 45%;
+    display: block;
+    margin: 4.5rem auto 0 auto;
+    outline: none;
+    border: 0;
+    height: 5rem;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+}
+button:hover {
+    background: #23798E;
+    color: #F1F1F1;
+}
